@@ -1,3 +1,2 @@
 404
-Page was not found.
-Go fuck bitch
+Page was not found.s
