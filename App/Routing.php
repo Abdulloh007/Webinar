@@ -13,7 +13,7 @@ class Router
 	}
 	public function route($url){
 		$path = $this->pages[$url];
-		$file_dir = "pages/".$path;
+		$file_dir = "public/".$path;
 
 		if($path == ""){
 			require "404.php";
