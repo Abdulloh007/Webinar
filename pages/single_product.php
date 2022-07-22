@@ -1,1 +1,5 @@
-about.php
+<?php
+
+    echo $_GET['id'];
+
+?>
