@@ -1,6 +1,6 @@
 <?php 
 
-	require "system/Routing.php";
+	require "App/Routing.php";
 	$url = key($_GET);
 
 
