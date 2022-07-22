@@ -1,0 +1,23 @@
+{
+  "name": "webinar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulloh007/Webinar.git"
+  },
+  "author": "Abdulloh & Abdurazzoq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulloh007/Webinar/issues"
+  },
+  "homepage": "https://github.com/Abdulloh007/Webinar#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "swiper": "^8.3.1"
+  }
+}
