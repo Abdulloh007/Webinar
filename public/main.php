@@ -39,7 +39,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_1.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -47,7 +47,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -81,7 +81,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_2.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -89,7 +89,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -123,7 +123,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_3.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -131,7 +131,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -165,7 +165,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_4.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -173,7 +173,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -219,11 +219,11 @@
                     </svg>                        
                 </a>
             </div>
-            <div class="s-row">
+            <div class="s-row s-jc-sb">
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_4.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -231,7 +231,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -265,7 +265,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_5.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -273,7 +273,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -307,7 +307,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_1.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -315,7 +315,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -349,7 +349,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_2.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -357,7 +357,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -403,11 +403,11 @@
                     </svg>                        
                 </a>
             </div>
-            <div class="s-row">
+            <div class="s-row s-jc-sb">
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_6.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -415,7 +415,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -449,7 +449,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_4.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -457,7 +457,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -491,7 +491,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_5.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -499,7 +499,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -533,7 +533,7 @@
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
                         <img class="s-pcb__img" src="./public/assets/img/p_3.png" alt="">
-                        <a href="#" class="s-pcb__link">
+                        <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
@@ -541,7 +541,7 @@
                         <h5 class="s-bage s-pcb__bage">-50%</h5>
                     </div>
                     <div class="s-pc__info">
-                        <div class="s-pci__price s-dfw">
+                        <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
                                 <h4 class="s-pcipt__price">44,50 ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
@@ -581,23 +581,17 @@
             <div class="s-row">
                 <h4 class="s-section__heading">ТОП Продаж</h4>
             </div>
-            <div class="s-row">
+            <div class="s-row s-jc-sb">
                 <div class="s-so__card s-dfw">
                     <div class="s-soc__text-wrap">
                         <h3>Оформите карту «Северяночка»</h3>
                         <p>И получайте бонусы при покупке в магазинах и на сайте</p>
-                    </div>
-                    <div class="s-soc__banner">
-                        <img src="./public/assets/img/loyal__card.png" alt="">
                     </div>
                 </div>
                 <div class="s-so__card s-dfw">
                     <div class="s-soc__text-wrap">
                         <h3>Покупайте акционные товары</h3>
                         <p>И получайте вдвое больше бонусов</p>
-                    </div>
-                    <div class="s-soc__banner">
-                        <img src="./public/assets/img/bonus__card.png" alt="">
                     </div>
                 </div>
             </div>
@@ -612,7 +606,7 @@
             <div class="s-row">
                 <div class="s-tabination">
                     <div class="s-tab__nav">
-                        <button class="s-btn">п.Щельяюр</button>
+                        <button class="s-btn active s-btn__green">п.Щельяюр</button>
                         <button class="s-btn">д.Вертеп</button>
                         <button class="s-btn">с.Краснобор</button>
                         <button class="s-btn">д.Диюр</button>
@@ -639,10 +633,10 @@
                     </svg>                        
                 </a>
             </div>
-            <div class="s-row">
+            <div class="s-row s-jc-sb">
                 <div class="s-news__card s-col-4">
                     <div class="s-nc__banner">
-                        <img src="./public/assets/img/" alt="">
+                        <img src="./public/assets/img/n_1.png" alt="">
                     </div>
                     <div class="s-datas s-dfw">
                         <p class="s-data__item">05.03.2021</p>
@@ -655,7 +649,7 @@
                 </div>
                 <div class="s-news__card s-col-4">
                     <div class="s-nc__banner">
-                        <img src="./public/assets/img/" alt="">
+                        <img src="./public/assets/img/n_2.png" alt="">
                     </div>
                     <div class="s-datas s-dfw">
                         <p class="s-data__item">05.03.2021</p>
@@ -668,7 +662,7 @@
                 </div>
                 <div class="s-news__card s-col-4">
                     <div class="s-nc__banner">
-                        <img src="./public/assets/img/" alt="">
+                        <img src="./public/assets/img/n_3.png" alt="">
                     </div>
                     <div class="s-datas s-dfw">
                         <p class="s-data__item">05.03.2021</p>
