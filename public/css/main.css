@@ -15,4 +15,41 @@
     font-size: 48px;
     font-weight: bold;
 }
-/* Sale Styles */
+/* Special Offer Styles */
+.s-so__card {
+    position: relative;
+    width: calc(50% - 20px);
+    padding: 30px 40px;
+    background: #FCD5BA;
+    box-shadow: 0px 8px 16px rgba(202, 147, 96, 0.5);
+    border-radius: 4px;
+}
+.s-so__card:first-child {
+    background-image: url('/public/assets/img/loyal__card.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.s-so__card:last-child {
+    background-color: #E5FFDE;
+    box-shadow: none;
+    background-image: url('/public/assets/img/bonus__card.png'), url('/public/assets/img/bbg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 100%;
+    background-position: right center, right center;
+}
+.s-soc__text-wrap {
+    width: 55%;
+}
+.s-soc__banner {
+    width: 45%;
+}
+.s-soc__text-wrap h3 {
+    font-size: 24px;
+    color: #414141;
+    margin: 0;
+}
+.s-soc__text-wrap p {
+    margin: 10px 0 0;
+}
