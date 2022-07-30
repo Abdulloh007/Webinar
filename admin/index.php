@@ -82,6 +82,20 @@
               if(isset($_GET['sales_edit']) || isset($_GET['sales_add']))
                 include('pages/sales_edit.php');
 
+
+              if(isset($_GET['orders']))
+                include('pages/orders.php');
+              
+              if(isset($_GET['orders_view']))
+                include('pages/orders_view.php');
+
+
+              if(isset($_GET['users']))
+                include('pages/users.php');
+              
+              if(isset($_GET['users_edit']) || isset($_GET['users_add']))
+                include('pages/users_edit.php');
+
           ?>
       </div><!-- /.content-wrapper -->
       <footer class="main-footer">
