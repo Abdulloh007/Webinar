@@ -322,6 +322,8 @@ footer#footer {
 }
 .s-pc__info .s-btn.s-btn__green.invert {
     width: 100%;
+    display: block;
+    text-align: center;
 }
 /* Pop Up Styles */
 /*PopUp Stylesheet*/
