@@ -67,10 +67,20 @@
 
               if(isset($_GET['dashboard']))
                 include('pages/dashboard.php');
+
+
               if(isset($_GET['products']))
                 include('pages/products.php');
+
+              if(isset($_GET['products_edit']) || isset($_GET['products_add']) )
+                include('pages/products_edit.php');
+              
+
               if(isset($_GET['sales']))
                 include('pages/sales.php');
+              
+              if(isset($_GET['sales_edit']) || isset($_GET['sales_add']))
+                include('pages/sales_edit.php');
 
           ?>
       </div><!-- /.content-wrapper -->

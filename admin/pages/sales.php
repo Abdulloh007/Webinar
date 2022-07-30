@@ -9,6 +9,9 @@
                     <div class="box-body">
                     <table id="example1" class="table table-bordered table-striped">
                         <thead>
+                        <a href="index.php?sales_add" class="btn btn-success">Добавить</a>
+                        <br>
+                        <br>
                         <tr>
                             <th> № </th>
                             <th>Скидка</th>
@@ -30,8 +33,8 @@
                             <td><?= $title; ?></td>
                             <td><?= $koeff; ?></td>
                             <td>
-                                <a href="" class="btn btn-info"><i class="fa fa-search-plus"></i></a>
-                                <a href="actions/sales.action.php?sales_edit=<?= $id; ?>" class="btn btn-success"><i class="fa fa-edit"></i></a>
+                                <!-- <a href="" class="btn btn-info"><i class="fa fa-search-plus"></i></a> -->
+                                <a href="index.php?sales_edit=<?= $id; ?>" class="btn btn-success"><i class="fa fa-edit"></i></a>
                                 <a href="actions/sales.action.php?sales_delete=<?= $id; ?>" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>

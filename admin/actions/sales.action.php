@@ -17,6 +17,40 @@
         }
     }
     if(isset($_GET['sales_edit'])){
-        include('../pages/sales_edit.php');
+        $id = $_GET['sales_edit'];
+
+        $title = $_POST['title'];
+        $koeff = $_POST['koeff'];
+
+        $update = "update sales set title = '$title', koeff = '$koeff' where id = '$id'";
+        $run = mysqli_query($con, $update);
+
+        if($run){
+            header("location: ../index.php?sales");
+        }else{
+            header("location: ../index.php?sales");
+        }
+
+    }
+    if(isset($_GET['sales_add'])){
+
+        $select = "select * from sales order by id DESC";
+        $run = mysqli_query($con,$select);
+        $row = mysqli_fetch_array($run);
+            $id = $row['id'];
+            $id++;
+
+        $title = $_POST['title'];
+        $koeff = $_POST['koeff'];
+
+        $update = "insert into sales set title = '$title', koeff = '$koeff'";
+        $run = mysqli_query($con, $update);
+
+        if($run){
+            header("location: ../index.php?sales");
+        }else{
+            header("location: ../index.php?sales");
+        }
+
     }
 ?>
