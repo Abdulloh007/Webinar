@@ -1,5 +1,6 @@
-<?php
-     $select ="select * from orders";
+<?php 
+     $id = $_GET['orders_view'];
+     $select ="select * from orders where id = '$id'";
      $run = mysqli_query($con,$select);
      $row = mysqli_fetch_array($run);
          extract($row);
