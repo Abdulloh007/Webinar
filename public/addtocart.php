@@ -15,6 +15,9 @@
         if($run){
             echo "<script>alert('Готово добавлено в Корзину')</script>";
             echo "<script>window.open('/','_self')</script>";
+        }else{
+            echo "<script>alert('Ошибка')</script>";
+            echo "<script>window.open('/','_self')</script>";
         }
     
     }
