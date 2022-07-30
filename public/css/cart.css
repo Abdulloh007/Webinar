@@ -1,0 +1,127 @@
+.s-product__list {
+    width: calc(80% - 40px);
+}
+
+.s-prl__item {
+    width: 100%;
+}
+.s-product__list {
+    width: calc(75% - 40px);
+    margin-right: 40px;
+}
+
+.s-prl__item {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0 10px 10px 0;
+    margin-bottom: 20px;
+}
+
+.s-prli__img {
+    width: 80px;
+    height: 60px;
+    background: url(image.png), #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.s-prli__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.s-prli__text-wrap {
+    width: calc(100% - 300px);
+}
+.s-prli__text-wrap h4 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+.s-prlip__item {
+    margin-right: 10px;
+}
+.s-prlip__item h5 {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+.s-prlip__item.bold h5 {
+    font-weight: 700;
+}
+.s-prlip__item p {
+    font-size: 12px;
+    color: #BFBFBF;
+    margin: 0;
+}
+.s-bage {
+    color: #FFFFFF;
+    background-color: var(--primery);
+}
+.s-prlip__count {
+    height: fit-content;
+    margin: auto 10px;
+    width: 70px;
+    text-align: center;
+}
+.s-prli__total-price {
+    font-size: 18px;
+    margin: auto 0;
+    width: 120px;
+    text-align: right;
+}
+
+
+
+
+.s-cart__total {
+    width: 25%;
+}
+
+.s-ct__text {
+    color: #8F8F8F;
+    margin: 0;
+}
+/* Table Styles */
+.s-table {
+    width: 100%;
+    padding: 0;
+    margin: 25px 0;
+}
+.s-tr {
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+.s-tr p {
+    margin: 0;
+    width: 50%;
+}
+.s-tr p:last-child {
+    font-weight: 600;
+    text-align: end;
+}
+.orange {
+    color: var(--primery);
+}
+.s-u__will {
+    color: var(--secondary);
+    margin-bottom: 25px;
+}
+
+.s-u__will svg {
+    margin-right: 15px;
+}
+.s-tr.total p:last-child {
+    font-size: 24px;
+    font-weight: 800;
+    color: #414141;
+}
+.s-cart__total .s-btn__orange {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
