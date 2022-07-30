@@ -1,4 +1,11 @@
-<? include('db.php'); ?>
+<?php 
+    include('db.php');
+    $id = $_GET['product'];
+        $select = "select * from products where id = '$id'";
+        $run = mysqli_query($con, $select);
+        $row = mysqli_fetch_array($run);
+            extract($row);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,11 +40,11 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>
                         </p>
-                        <p class="s-bc__item">Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г</p>
+                        <p class="s-bc__item"><?= $title; ?></p>
                     </div>
                 </div>
                 <div class="s-row">
-                    <h2 class="s-section__heading">Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180 г</h2>
+                    <h2 class="s-section__heading"><?= $title; ?></h2>
                 </div>
             </div>
         </section>
@@ -48,7 +55,7 @@
                     <div class="swiper product-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img class="s-product__img" src="./public/assets/img/prod_n.png" alt="">
+                                <img class="s-product__img" src="<?= $image; ?>" alt="">
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -57,11 +64,11 @@
                     <div class="s-product__info">
                         <div class="s-pi_prices s-dfw s-jc-sb">
                             <div class="s-pip__item">
-                                <h4>192,69 ₽</h4>
-                                <p>Обычная цена</p>
+                                <h4><?= $price_with_card; ?> ₽</h4>
+                                <p>С картой</p>
                             </div>
                             <div class="s-pip__item bold">
-                                <h4>192,69 ₽</h4>
+                                <h4><?= $price_without_card; ?> ₽</h4>
                                 <p class="s-dfw ">
                                     <span>Обычная цена</span>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,14 +79,14 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="s-btn s-btn__orange s-dfw s-jc-sb">
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__orange s-dfw s-jc-sb">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.33203 27.9998C7.33203 26.1589 8.82442 24.6665 10.6654 24.6665C12.5063 24.6665 13.9987 26.1589 13.9987 27.9998C13.9987 29.8408 12.5063 31.3332 10.6654 31.3332C8.82442 31.3332 7.33203 29.8408 7.33203 27.9998ZM10.6654 25.9998C9.56079 25.9998 8.66536 26.8953 8.66536 27.9998C8.66536 29.1044 9.56079 29.9998 10.6654 29.9998C11.7699 29.9998 12.6654 29.1044 12.6654 27.9998C12.6654 26.8953 11.7699 25.9998 10.6654 25.9998Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.332 27.9998C23.332 26.1589 24.8244 24.6665 26.6654 24.6665C28.5063 24.6665 29.9987 26.1589 29.9987 27.9998C29.9987 29.8408 28.5063 31.3332 26.6654 31.3332C24.8244 31.3332 23.332 29.8408 23.332 27.9998ZM26.6654 25.9998C25.5608 25.9998 24.6654 26.8953 24.6654 27.9998C24.6654 29.1044 25.5608 29.9998 26.6654 29.9998C27.7699 29.9998 28.6654 29.1044 28.6654 27.9998C28.6654 26.8953 27.7699 25.9998 26.6654 25.9998Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.33464 0.666504C0.966446 0.666504 0.667969 0.964981 0.667969 1.33317C0.667969 1.70136 0.966446 1.99984 1.33464 1.99984H6.10865C7.11841 7.7218 8.13907 13.4189 9.00038 19.161C9.24514 20.7927 10.6468 21.9998 12.2968 21.9998H25.8142C27.4031 21.9998 28.7712 20.8783 29.0828 19.3202L31.0018 9.7254C31.2493 8.48782 30.3027 7.33317 29.0406 7.33317H9.54859C9.14464 7.33317 8.77193 7.45186 8.46045 7.65441L7.32449 1.21731C7.26827 0.898742 6.99146 0.666504 6.66797 0.666504H1.33464ZM8.8893 9.43206C8.82884 9.029 9.14101 8.6665 9.54859 8.6665H29.0406C29.4613 8.6665 29.7768 9.05139 29.6943 9.46392L27.7754 19.0587C27.5884 19.9936 26.7676 20.6665 25.8142 20.6665H12.2968C11.3068 20.6665 10.4658 19.9422 10.319 18.9632L8.8893 9.43206Z" fill="white"/>
                             </svg>
                             <span>В корзину</span>
-                        </button>
+                        </a>
                         <div class="s-u__will s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.1883 0.666504H0.811961C0.343143 0.666504 -0.0396916 1.05813 0.0033005 1.5204C0.494639 7.01119 5.67826 11.3332 12.0001 11.3332C18.322 11.3332 23.5056 7.01321 23.997 1.5204C24.0379 1.05813 23.6571 0.666504 23.1883 0.666504Z" fill="#70C05B"/>
@@ -166,7 +173,7 @@
                         </div>
                         <h4 class="s-pc__title"><?= $title; ?></h4>
                        
-                        <a class="s-btn s-btn__green invert">В корзину</a>
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__green invert">В корзину</a>
                     </div>
                 </div>                
                 <? } ?>                
@@ -222,7 +229,7 @@
                         </div>
                         <h4 class="s-pc__title"><?= $title; ?></h4>
                        
-                        <a class="s-btn s-btn__green invert">В корзину</a>
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__green invert">В корзину</a>
                     </div>
                 </div>                
                 <? } ?>                
