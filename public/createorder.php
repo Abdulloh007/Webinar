@@ -21,6 +21,10 @@
 
     $insert = "insert into orders set user_id = '$user_id', products = '$json_arr', summary = '$summary'";
     $run = mysqli_query($con,$insert);
+    
+    $delete = "delete from cart where user_id = '$user_id'";
+    $run = mysqli_query($con,$delete);
+
     if($run){
         echo "<script>alert('Готово заказ оформлен, ждите курьера')</script>";
         echo "<script>window.open('/','_self')</script>";
