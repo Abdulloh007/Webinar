@@ -308,15 +308,17 @@
                     <h4>Вход</h4>
                 </div>
                 <div class="s-pop_up__content">
-                    <p class="s-label__text">Телефон</p>
-                    <label class="s-label s-border__green s-dfw">
-                        <input type="tel" placeholder="+992 92 999 99 99" class="s-inp">                      
-                    </label>
-                    <button class="s-btn s-pop_up__submit">Вход</button>
-                    <div class="s-pop_up__actions s-dfw s-jc-sb s-alt-center">
-                        <button class="s-btn s-btn__green invert">Регистрация</button>
-                        <a href="#" class="s-section__link">Забыли пароль?</a>
-                    </div>
+                    <form action="actions/sign-in.php" method="post">
+                        <p class="s-label__text">Телефон</p>
+                        <label class="s-label s-border__green s-dfw">
+                            <input type="tel" name="number" placeholder="+992 92 999 99 99" class="s-inp">                      
+                        </label>
+                        <button class="s-btn s-pop_up__submit" type="submit" name="enter">Вход</button>
+                        <div class="s-pop_up__actions s-dfw s-jc-sb s-alt-center">
+                            <button class="s-btn s-btn__green invert">Регистрация</button>
+                            <a href="#" class="s-section__link">Забыли пароль?</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
