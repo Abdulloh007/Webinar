@@ -6,8 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const footerTemp = document.querySelector('#footer');
 
 
-    fetch('./public/assets/components/header.html').then(res => res.text()).then(data => headerTemp.innerHTML = data);
-    fetch('./public/assets/components/footer.html').then(res => res.text()).then(data => footerTemp.innerHTML = data);
-
+    fetch('./public/assets/components/header.php').then(res => res.text()).then(data => headerTemp.innerHTML = data);
+    fetch('./public/assets/components/footer.php').then(res => res.text()).then(data => footerTemp.innerHTML = data);
 
 })

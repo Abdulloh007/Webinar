@@ -1,0 +1,18 @@
+/* Banner Styles */
+.s-banner__section {
+    padding-top: 90px;
+    padding-bottom: 0;
+    background-image: url(/public/assets/img/hbg.png);
+    background-color: #fff;
+}
+.s-banner__img {
+    width: 330px;
+    margin-right: 20px;
+}
+.s-banner__headimg {
+    width: calc(100% - 330px - 20px);
+    color: #414141;
+    font-size: 48px;
+    font-weight: bold;
+}
+/* Sale Styles */

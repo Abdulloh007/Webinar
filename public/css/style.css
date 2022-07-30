@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primery: #FF6633;
+    --secondary: #70C05B;
+    --info: #1CB9FC;
+    --light-gray: #BFBFBF;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #FBF8EC;
+}
+
+/* Glob Styles */
+.s-section {
+    padding: 60px 0;
+} 
+.s-section:last-child {
+    margin-bottom: 80px;
+}
+.s-container {
+    max-width: 1210px;
+    width: 100%;
+    margin: auto;
+}
+.s-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+.s-dfw {
+    display: flex;
+    flex-wrap: wrap;
+}
+.s-section__heading {
+    font-size: 36px;
+    color: #414141;
+    margin: 0 0 40px;
+    width: calc(100% - 160px);
+}
+.s-section__link {
+    justify-content: flex-end;
+    width: 160px;
+    color: #606060;
+}
+.s-section__link span {
+    margin-right: 10px;
+}
+.s-jc-sb {
+    justify-content: space-between;
+}
+.s-jc-center {
+    justify-content: center;
+}
+.s-alt-center {
+    align-items: center;
+}
+.s-p0 {
+    padding: 0;
+}
+.s-m0 {
+    margin: 0;
+}
+.s-pos-rel {
+    position: relative;
+}
+.s-pos-abs {
+    position: absolute;
+}
+
+a, input, select {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.s-btn {
+    background-color: #F3F2F1;
+    border: 1px solid #F3F2F1;
+    color: #606060;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    width: auto;
+}
+.s-btn span {
+    display: flex;
+}
+.s-btn svg:first-child {
+    margin-right: 10px;
+}
+.s-btn svg:last-child {
+    margin-left: 10px;
+}
+.s-btn__green {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #fff;
+    margin-right: 15px;
+}
+.s-shop__actions > .s-label {
+    width: calc(100% - 430px - 40px - 120px);
+}
+.s-label {
+    background: #fff;
+    border: 1px solid var(--light-gray);
+    padding: 10px;
+    border-radius: 4px;
+}
+.s-label.s-border__green {
+    border-color: var(--secondary);
+}
+.s-shop__actions > .s-label input {
+    width: calc(100% - 24px);
+}
+.s-hot-links {
+    margin-left: 40px;
+}
+.s-hl__item {
+    text-align: center;
+    margin-right: 24px;
+}
+.s-hl__item span {
+    display: block;
+    margin-top: 10px;
+}
+.s-hl__item.avatar {
+    margin-right: 0;
+}
+.s-hl__item.avatar img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.s-hl__item.avatar h4 {
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+
+/* Header Styles */
+.s-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 10%);
+}
+.s-nav.fix {
+    position: fixed;
+}
+.s-logo {
+    width: 150px;
+    margin-right: 40px;
+}
+.s-shop__actions {
+    width: calc(100% - 190px);
+}
+
+
+/* Footer Styles */
+footer#footer {
+    background-image: url('/public/assets/img/fbg.png');
+    background-position: center;
+    background-size: 100%;
+    padding: 25px 0;
+}
+.s-footer__logo {
+    width: 64px;
+    margin-right: 40px;
+}
+.s-footer__navigation {
+    margin-right: auto;
+}
+.s-social__list {
+    margin-right: 40px;
+}
+.s-fn__item {
+    font-size: 12px;
+    color: #000;
+    margin-right: 40px;
+}
+.s-sl__item:not(:last-child) {
+    margin-right: 18px;
+}
+.s-sl__item svg {
+    height: 20px;
+}
+.s-get_in_touch h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+}
+.s-get_in_touch svg {
+    margin-right: 8px;
+}
+.s-footer__copyright {
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    color: #414141;
+}
+
+/* Product Card Styles */
+.s-col-3 {
+    width: calc(25% - (120px / 4));
+}
+.s-pc__banner {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: #fff;
+    padding: 10px;
+}
+.s-pc__banner img {
+    object-fit: cover;
+    height: 100%;
+}
