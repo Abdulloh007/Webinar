@@ -2,3 +2,60 @@ h2.s-section__heading {
     font-size: 64px;
 }
 
+.s-product__filter {
+    width: 275px;
+    margin-right: 40px;
+}
+
+.s-pf__heading {
+    background: #F3F2F1;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 0 40px;
+    color: #414141;
+}
+
+.s-pfl__item {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.s-pfli__title {
+    font-weight: 400;
+}
+
+.s-pfli__labels > label {
+    width: calc(50% - 10px);
+    position: relative;
+}
+
+.s-pfli__labels > label:first-child::after {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    content: "";
+    width: 24px;
+    height: 1px;
+    background-color: #000;
+}
+
+.s-cotegory__list {
+    width: 100%;
+}
+
+.s-cl__item {
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.s-product__filter .s-btn__orange {
+    width: 100%;
+    padding: 10px;
+}
+/* Products Styles */
+.s-products {
+    width: calc(100% - 275px - 40px);
+}
+.s-product__card {
+    margin-bottom: 40px;
+}

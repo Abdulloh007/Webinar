@@ -126,6 +126,15 @@ a, input, select {
     background-color: var(--secondary);
     color: #fff;
 }
+.s-btn__orange {
+    color: #fff;
+    background-color: var(--primery);
+    border-color: var(--primery);
+}
+.s-btn__orange:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
 .s-shop__actions > .s-label {
     width: calc(100% - 430px - 40px - 120px);
 }
@@ -137,6 +146,9 @@ a, input, select {
 }
 .s-label.s-border__green {
     border-color: var(--secondary);
+}
+.s-label input, .s-inp {
+    max-width: 100%;
 }
 .s-shop__actions > .s-label input {
     width: calc(100% - 24px);
