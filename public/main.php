@@ -606,10 +606,10 @@
             <div class="s-row">
                 <div class="s-tabination">
                     <div class="s-tab__nav">
-                        <button class="s-btn active s-btn__green">п.Щельяюр</button>
-                        <button class="s-btn">д.Вертеп</button>
-                        <button class="s-btn">с.Краснобор</button>
-                        <button class="s-btn">д.Диюр</button>
+                        <button class="s-btn s-tn__item">п.Щельяюр</button>
+                        <button class="s-btn s-tn__item">д.Вертеп</button>
+                        <button class="s-btn s-tn__item">с.Краснобор</button>
+                        <button class="s-btn s-tn__item">д.Диюр</button>
                     </div>
                     <div class="s-tab">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97392.32463258074!2d69.6369266!3d40.28663055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b1b2ddc3ab3e0d%3A0x1f4cdc45cf4fee37!2z0KXRg9C00LbQsNC90LQ!5e0!3m2!1sru!2s!4v1659167310595!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -681,6 +681,32 @@
     <!-- FOOTER SECTION -->
     <footer id="footer"></footer>
 
+    <section class="s-popup__section">
+        <div data-target="auth" class="s-pop_up">
+            <div class="s-pop_up__wrap">
+                <div class="s-pop_up__wrap__header">
+                    <div class="s-close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3536 5.64645C18.5488 5.84171 18.5488 6.15829 18.3536 6.35355L6.35355 18.3536C6.15829 18.5488 5.84171 18.5488 5.64645 18.3536C5.45118 18.1583 5.45118 17.8417 5.64645 17.6464L17.6464 5.64645C17.8417 5.45118 18.1583 5.45118 18.3536 5.64645Z" fill="#414141"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64645 5.64645C5.84171 5.45118 6.15829 5.45118 6.35355 5.64645L18.3536 17.6464C18.5488 17.8417 18.5488 18.1583 18.3536 18.3536C18.1583 18.5488 17.8417 18.5488 17.6464 18.3536L5.64645 6.35355C5.45118 6.15829 5.45118 5.84171 5.64645 5.64645Z" fill="#414141"/>
+                        </svg>                            
+                    </div>
+                    <h4>Вход</h4>
+                </div>
+                <div class="s-pop_up__content">
+                    <p class="s-label__text">Телефон</p>
+                    <label class="s-label s-border__green s-dfw">
+                        <input type="tel" placeholder="+992 92 999 99 99" class="s-inp">                      
+                    </label>
+                    <button class="s-btn s-pop_up__submit">Вход</button>
+                    <div class="s-pop_up__actions s-dfw s-jc-sb s-alt-center">
+                        <button class="s-btn s-btn__green invert">Регистрация</button>
+                        <a href="#" class="s-section__link">Забыли пароль?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script type="module" src="./public/js/index.js"></script>
     <script src="./public/js/main.js"></script>
