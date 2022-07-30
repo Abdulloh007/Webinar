@@ -72,7 +72,7 @@
                         </div>
                         <h4 class="s-pc__title"><?= $title; ?></h4>
                        
-                        <a class="s-btn s-btn__green invert">В корзину</a>
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__green invert">В корзину</a>
                     </div>
                 </div>                
                 <? } ?>                
@@ -93,7 +93,7 @@
             </div>
             <div class="s-row s-jc-sb">
             <?php
-                $select = "SELECT * FROM `products` where sales_id != '0' order by id DESC limit 4";
+                $select = "SELECT * FROM `products` where sales_id != '0' order by title DESC limit 4";
                 $run = mysqli_query($con,$select);
                 while($row = mysqli_fetch_array($run)){
                     extract($row);
@@ -127,7 +127,7 @@
                         </div>
                         <h4 class="s-pc__title"><?= $title; ?></h4>
                        
-                        <a class="s-btn s-btn__green invert">В корзину</a>
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__green invert">В корзину</a>
                     </div>
                 </div>                
                 <? } ?>            
@@ -148,7 +148,7 @@
             </div>
             <div class="s-row s-jc-sb">
             <?php
-                $select = "SELECT * FROM `products` where sales_id != '0' order by id DESC limit 4";
+                $select = "SELECT * FROM `products` order by id ASC limit 4";
                 $run = mysqli_query($con,$select);
                 while($row = mysqli_fetch_array($run)){
                     extract($row);
@@ -161,28 +161,28 @@
             ?>
                 <div class="s-col-3 s-product__card">
                     <div class="s-pc__banner">
-                        <img class="s-pcb__img" src="./public/assets/img/p_6.png" alt="">
+                        <img class="s-pcb__img" src="<?= $image; ?>" alt="">
                         <a href="#" class="s-pcb__link s-dfw s-jc-center s-alt-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64645 5.64645C8.84171 5.45118 9.15829 5.45118 9.35355 5.64645L15.3536 11.6464C15.5488 11.8417 15.5488 12.1583 15.3536 12.3536L9.35355 18.3536C9.15829 18.5488 8.84171 18.5488 8.64645 18.3536C8.45118 18.1583 8.45118 17.8417 8.64645 17.6464L14.2929 12L8.64645 6.35355C8.45118 6.15829 8.45118 5.84171 8.64645 5.64645Z" fill="#414141"/>
                             </svg>                                
                         </a>
-                        <h5 class="s-bage s-pcb__bage">-50%</h5>
+                        <h5 class="s-bage s-pcb__bage"><?= $sales_title; ?></h5>
                     </div>
                     <div class="s-pc__info">
                         <div class="s-pci__price s-dfw s-jc-sb">
                             <div class="s-pcip__item bold">
-                                <h4 class="s-pcipt__price">44,50 ₽</h4>
+                                <h4 class="s-pcipt__price"><?= $price_with_card; ?> ₽</h4>
                                 <p class="s-pcipt__price-type">С картой</p>
                             </div>
                             <div class="s-pcip__item">
-                                <h4 class="s-pcipt__price">50,50 ₽</h4>
-                                <p class="s-pcipt__price-type">С картой</p>
+                                <h4 class="s-pcipt__price"><?= $price_without_card; ?> ₽</h4>
+                                <p class="s-pcipt__price-type">Обычный</p>
                             </div>
                         </div>
-                        <h4 class="s-pc__title">Г/Ц Блинчики с мясом вес, Россия</h4>
+                        <h4 class="s-pc__title"><?= $title; ?></h4>
                        
-                        <a class="s-btn s-btn__green invert">В корзину</a>
+                        <a href="/addtocart?product=<?= $id; ?>" class="s-btn s-btn__green invert">В корзину</a>
                     </div>
                 </div>  
                 <? } ?>               
