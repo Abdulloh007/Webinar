@@ -277,6 +277,8 @@
             <li><a href="index.php?dashboard"><i class="fa fa-dashboard"></i> <span>Панель управления</span></a></li>
             <li><a href="index.php?products"><i class="fa fa-shopping-cart"></i> <span>Продукты</span></a></li>
             <li><a href="index.php?sales"><i class="fa fa-minus"></i> <span>Скидки</span></a></li>
+            <li><a href="index.php?orders"><i class="fa fa-list"></i> <span>Заказы</span></a></li>
+            <li><a href="index.php?users"><i class="fa fa-users"></i> <span>Пользователи</span></a></li>
             <li><a href="sign-out.php"><i class="fa fa-sign-out"></i> <span>Выход</span></a></li>
           </ul>
         </section>

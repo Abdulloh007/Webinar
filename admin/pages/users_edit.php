@@ -2,16 +2,16 @@
     session_start();
     if(!isset($_SESSION['login']))
         header("location: login.html");
-    if(isset($_GET['products_edit'])){
-        $action = "actions/products.action.php?products_edit=$id";
-        $id = $_GET['products_edit'];
-        $select ="select * from products where id = '$id'";
+    if(isset($_GET['users_edit'])){
+        $action = "actions/users.action.php?users_edit=$id";
+        $id = $_GET['users_edit'];
+        $select ="select * from user where id = '$id'";
         $run = mysqli_query($con,$select);
         $row = mysqli_fetch_array($run);
-        extract($row);
+        extract($row,EXTR_PREFIX_ALL,'user');
       }
-    if(isset($_GET['products_add'])){
-      $action = "actions/products.action.php?products_add";
+    if(isset($_GET['users_add'])){
+      $action = "actions/users.action.php?users_add";
     }
 ?>
 <!DOCTYPE html>
@@ -38,13 +38,13 @@
     <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Продукты    
+            Пользователи    
             <small>Изменение</small>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Главная</a></li>
-            <li><a href="#">Продукты</a></li>
-            <li class="active">Изменение продуктов</li>
+            <li><a href="#">Пользователи</a></li>
+            <li class="active">Изменение пользователей</li>
           </ol>
         </section>
 
@@ -56,47 +56,41 @@
               <!-- general form elements -->
               <div class="box box-danger">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Изменение продуктов</h3>
+                  <h3 class="box-title">Изменение пользователей</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
                 <form role="form" action="<?= $action; ?>" method="post" enctype="multipart/form-data">
                   <div class="box-body row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="title">Наименование</label>
-                            <input type="text" name="title" class="form-control" id="title" value="<?= $title; ?>" placeholder="Скидка">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" class="form-control" id="name" value="<?= $user_name; ?>" placeholder="Имя">
                         </div>
                         <div class="form-group">
-                            <label for="rating">Рейтинг</label>
-                            <input type="text" name="rating" class="form-control" value="<?= $rating; ?>" id="rating" placeholder="Рейтинг">
+                            <label for="surname">Фамилия</label>
+                            <input type="text" name="surname" class="form-control" value="<?= $user_surname; ?>" id="surname" placeholder="Фамилия">
                         </div>
                         <div class="form-group">
-                            <label for="price_with_card">Цена по карте</label>
-                            <input type="text" name="price_with_card" class="form-control" value="<?= $price_with_card; ?>" id="price_with_card" placeholder="Цена по карте">
+                            <label for="price_with_card">Логин</label>
+                            <input type="text" name="login" class="form-control" value="<?= $user_login; ?>" id="login" placeholder="Логин">
                         </div>
                         <div class="form-group">
-                            <label for="price_without_card">Обычная цена</label>
-                            <input type="text" name="price_without_card" class="form-control" value="<?= $price_without_card; ?>" id="price_without_card" placeholder="Обычная цена">
+                            <label for="password">Пароль</label>
+                            <input type="text" name="password" class="form-control" value="<?= $user_password; ?>" id="password" placeholder="Пароль">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="image">Фото</label>
-                            <input type="file" name="image" class="form-control" id="image" value="<?= $image; ?>" placeholder="Фото">
-                        </div>
+                            <label for="number">Номер телефона</label>
+                            <input type="text" name="number" class="form-control" id="number" value="<?= $user_number; ?>" placeholder="Номер телефона">
+                        </div>   
                         <div class="form-group">
-                            <label for="sales">Скидка</label>
-                            <select name="sales_id" id="sales" class="form-control" value="<?= $sales_id; ?>">
-                                <option value="0" selected disabled> Скидки... </option>
-                                <?php
-                                    $select ="select * from sales";
-                                    $run = mysqli_query($con,$select);
-                                    while($row = mysqli_fetch_array($run)){
-                                        extract($row);
-                                ?>    
-                                   <option value="<?= $id; ?>"><?= $title; ?></option>
-                                <? } ?>
-                            </select>
+                            <label for="address">Адрес</label>
+                            <input type="text" name="address" class="form-control" id="address" value="<?= $user_address; ?>" placeholder="Адрес">
+                        </div>   
+                        <div class="form-group">
+                            <label for="image">Фото</label>
+                            <input type="file" name="image" class="form-control" id="image" value="<?= $user_image; ?>" placeholder="Фото">
                         </div>
                     </div>
                   </div><!-- /.box-body -->
