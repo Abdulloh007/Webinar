@@ -7,6 +7,7 @@
 	$route->addRoute("/shop", "shop.php");
 	$route->addRoute("/order", "order.php");
 	$route->addRoute("/product", "single_product.php");
+	$route->addRoute("/addtocart", "addtocart.php");
 	$route->addRoute("/cart", "cart.php");
 
 	$route->route("/".$url);
