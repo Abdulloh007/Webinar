@@ -96,16 +96,16 @@
                         <ul class="s-table">
                             <li class="s-tr s-dfw">
                                 <p>Бренд</p>
-                                <p>ПРОСТОКВАШИНО</p>
+                                <p>Северяночка</p>
                             </li>
                             <li class="s-tr s-dfw">
                                 <p>Страна производителя</p>
-                                <p>Россия</p>
+                                <p>Таджикистан</p>
                             </li>
-                            <li class="s-tr s-dfw">
+                            <!-- <li class="s-tr s-dfw">
                                 <p>Упаковка</p>
                                 <p>180 г</p>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="s-similar__products">
